@@ -16,6 +16,12 @@
 - As an admin, I want to manage notifications, so I can keep users informed about important updates.
 - As an admin, I want to handle disputes between users, so I can ensure fair resolutions and maintain a positive community.
 
+### Barterer Stories
+
+- As a barterer, I want to verify the identity of the person I’m trading with, so I can feel secure during the exchange.
+- As a barterer, I want to communicate through a secure chat system, so I can ensure that all discussions remain within the platform.
+- As a barterer, I want help planning my bartering goals, so I can receive recommendations on how to reach my desired item efficiently.
+
 
 <br><br>
 <!-- Tech stack -->
