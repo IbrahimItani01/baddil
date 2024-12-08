@@ -9,7 +9,6 @@
 >
 > Baddĭl aims to redefine how people trade goods and services by introducing modern tools like AI assistance, dynamic user interfaces, and automated workflows. We believe in fostering a community of trust and efficiency, empowering users to achieve their bartering goals effortlessly.
 
-
 ### Admin Stories
 
 - As an admin, I want to flag suspicious activities, so I can ensure a safe and trustworthy platform.
@@ -42,6 +41,9 @@
 - The admin desktop app is built using [Electron](https://www.electronjs.org/), which wraps the Next.js app to provide a seamless desktop experience across platforms.
 - The runtime and task management are handled by [Bun](https://bun.sh/). Bun is a fast, modern JavaScript runtime that works well for handling tasks in web and mobile applications.
 - The app uses [TypeScript](https://www.typescriptlang.org/) for strong typing and enhanced development productivity, providing a better developer experience and reducing runtime errors.
+- AI features, including recommendations, trade planning, and analysis, are powered by [OpenAI](https://openai.com/). OpenAI provides cutting-edge AI models to enhance user experience and provide intelligent assistance across the platform.
+
+
 
 <br><br>
 
@@ -54,8 +56,8 @@
 
 ### Mockups
 
-| Home screen  | Menu Screen | Order Screen |
-| ---| ---| ---|
+| Home screen                             | Menu Screen                           | Order Screen                          |
+| --------------------------------------- | ------------------------------------- | ------------------------------------- |
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
 
 <br><br>
@@ -74,18 +76,18 @@
 
 ### User Screens (Mobile)
 
-| Login screen  | Register screen | Landing screen | Loading screen |
-| ---| ---| ---| ---|
+| Login screen                              | Register screen                         | Landing screen                          | Loading screen                          |
+| ----------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
 | ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
-| Home screen  | Menu Screen | Order Screen | Checkout Screen |
+| Home screen                               | Menu Screen                             | Order Screen                            | Checkout Screen                         |
 | ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
 
 ### Admin Screens (Web)
 
-| Login screen  | Register screen |  Landing screen |
-| ---| ---| ---|
+| Login screen                            | Register screen                       | Landing screen                        |
+| --------------------------------------- | ------------------------------------- | ------------------------------------- |
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-| Home screen  | Menu Screen | Order Screen |
+| Home screen                             | Menu Screen                           | Order Screen                          |
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
 
 <br><br>
@@ -148,7 +150,7 @@ _Below is an example of how you can instruct your audience on installing and set
 4. Enter your API in `config.js`
 
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   const API_KEY = "ENTER YOUR API";
    ```
 
 Now, you should be able to run Coffee Express locally and explore its features.
