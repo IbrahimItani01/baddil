@@ -38,6 +38,7 @@
 - This project uses the [Nest.js](https://nestjs.com/) framework for the backend. Nest.js is a progressive Node.js framework built with TypeScript, enabling efficient and scalable server-side development.
 - For the database, the app uses [MongoDB](https://www.mongodb.com/). MongoDB is a NoSQL database that stores data in flexible, JSON-like documents, which makes it ideal for rapidly evolving applications like Baddĭl.
 - The mobile app is developed using [React Native](https://reactnative.dev/). React Native allows for building mobile apps for iOS and Android using a single codebase, leveraging the power of React.
+- The broker web app is developed using [Next.js](https://nextjs.org/). Next.js is a React framework that enables server-side rendering and static site generation for optimized performance and SEO.
 
 <br><br>
 <!-- UI UX -->
