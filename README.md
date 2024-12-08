@@ -153,4 +153,4 @@ _Below is an example of how you can instruct your audience on installing and set
    const API_KEY = "ENTER YOUR API";
    ```
 
-Now, you should be able to run Coffee Express locally and explore its features.
+Now, you should be able to run Baddĭl locally and explore its features.
