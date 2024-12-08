@@ -40,6 +40,7 @@
 - The mobile app is developed using [React Native](https://reactnative.dev/). React Native allows for building mobile apps for iOS and Android using a single codebase, leveraging the power of React.
 - The broker web app is developed using [Next.js](https://nextjs.org/). Next.js is a React framework that enables server-side rendering and static site generation for optimized performance and SEO.
 - The admin desktop app is built using [Electron](https://www.electronjs.org/), which wraps the Next.js app to provide a seamless desktop experience across platforms.
+- The runtime and task management are handled by [Bun](https://bun.sh/). Bun is a fast, modern JavaScript runtime that works well for handling tasks in web and mobile applications.
 
 <br><br>
 <!-- UI UX -->
