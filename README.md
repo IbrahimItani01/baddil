@@ -10,11 +10,12 @@
 > Baddĭl aims to redefine how people trade goods and services by introducing modern tools like AI assistance, dynamic user interfaces, and automated workflows. We believe in fostering a community of trust and efficiency, empowering users to achieve their bartering goals effortlessly.
 
 
-### User Stories
+### Admin Stories
 
-- As a user, I want to browse the menu, so I can find my favorite coffee drinks.
-- As a user, I want to customize my order, so I can add or remove ingredients according to my preferences.
-- As a user, I want to pay for my order through the app, so I can avoid waiting in line at the store.
+- As an admin, I want to flag suspicious activities, so I can ensure a safe and trustworthy platform.
+- As an admin, I want to manage notifications, so I can keep users informed about important updates.
+- As an admin, I want to handle disputes between users, so I can ensure fair resolutions and maintain a positive community.
+
 
 <br><br>
 <!-- Tech stack -->
