@@ -22,6 +22,11 @@
 - As a barterer, I want to communicate through a secure chat system, so I can ensure that all discussions remain within the platform.
 - As a barterer, I want help planning my bartering goals, so I can receive recommendations on how to reach my desired item efficiently.
 
+### Broker Stories
+
+- As a broker, I want to manage trade deadlines on a calendar, so I can efficiently organize my clients' trades.
+- As a broker, I want to manage my income from clients and the platform, so I can keep track of my earnings and monitor performance.
+- As a broker, I want to view trade details easily, so I can provide accurate advice and support to my clients.
 
 <br><br>
 <!-- Tech stack -->
