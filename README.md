@@ -36,6 +36,7 @@
 ### Baddĭl is built using the following technologies
 
 - This project uses the [Nest.js](https://nestjs.com/) framework for the backend. Nest.js is a progressive Node.js framework built with TypeScript, enabling efficient and scalable server-side development.
+- For the database, the app uses [MongoDB](https://www.mongodb.com/). MongoDB is a NoSQL database that stores data in flexible, JSON-like documents, which makes it ideal for rapidly evolving applications like Baddĭl.
 
 <br><br>
 <!-- UI UX -->
