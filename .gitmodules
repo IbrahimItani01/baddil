@@ -4,3 +4,6 @@
 [submodule "baddil-barterer-app"]
 	path = baddil-barterer-app
 	url = https://github.com/IbrahimItani01/baddil-barterer-app.git
+[submodule "baddil-server"]
+	path = baddil-server
+	url = https://github.com/IbrahimItani01/baddil-server.git
