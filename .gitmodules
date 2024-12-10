@@ -1,0 +1,3 @@
+[submodule "baddil-broker-app"]
+	path = baddil-broker-app
+	url = https://github.com/IbrahimItani01/baddil-broker-app.git
