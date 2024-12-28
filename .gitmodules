@@ -7,3 +7,6 @@
 [submodule "baddil-admin-app"]
 	path = baddil-admin-app
 	url = https://github.com/IbrahimItani01/baddil-admin-app.git
+[submodule "baddil-barterer-app"]
+	path = baddil-barterer-app
+	url = https://github.com/IbrahimItani01/baddil-barterer-app.git
