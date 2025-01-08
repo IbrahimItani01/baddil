@@ -10,6 +10,7 @@
 > Baddĭl aims to redefine how people trade goods and services by introducing modern tools like AI assistance, dynamic user interfaces, and automated workflows. We believe in fostering a community of trust and efficiency, empowering users to achieve their bartering goals effortlessly.
 
 ### User Stories
+
 #### Admin Stories
 
 - As an admin, I want to flag suspicious activities, so I can ensure a safe and trustworthy platform.
@@ -44,8 +45,6 @@
 - The app uses [TypeScript](https://www.typescriptlang.org/) for strong typing and enhanced development productivity, providing a better developer experience and reducing runtime errors.
 - AI features, including recommendations, trade planning, and analysis, are powered by [OpenAI](https://openai.com/). OpenAI provides cutting-edge AI models to enhance user experience and provide intelligent assistance across the platform.
 
-
-
 <br><br>
 
 <!-- UI UX -->
@@ -53,7 +52,7 @@
 
 > We designed Coffee Express using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
 
-- Project Figma design [figma](https://www.figma.com/file/LsuOx5Wnh5YTGSEtrgvz4l/Purrfect-Pals?type=design&node-id=257%3A79&mode=design&t=adzbABt5hbb91ucZ-1)
+- Project Figma design [figma](https://www.figma.com/design/mQS7bXZeXgdcuBRzxnVaNN/Badd%C4%ADl-Project?m=auto&t=i0kwRwvZMlqeEVbU-1)
 
 ### Mockups
 
