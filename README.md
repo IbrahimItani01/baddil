@@ -11,19 +11,19 @@
 
 ### User Stories
 
-#### Admin 
+#### Admin
 
 - As an admin, I want to flag suspicious activities, so I can ensure a safe and trustworthy platform.
 - As an admin, I want to manage notifications, so I can keep users informed about important updates.
 - As an admin, I want to handle disputes between users, so I can ensure fair resolutions and maintain a positive community.
 
-#### Barterer 
+#### Barterer
 
 - As a barterer, I want to verify the identity of the person I’m trading with, so I can feel secure during the exchange.
 - As a barterer, I want to communicate through a secure chat system, so I can ensure that all discussions remain within the platform.
 - As a barterer, I want help planning my bartering goals, so I can receive recommendations on how to reach my desired item efficiently.
 
-#### Broker 
+#### Broker
 
 - As a broker, I want to manage trade deadlines on a calendar, so I can efficiently organize my clients' trades.
 - As a broker, I want to manage my income from clients and the platform, so I can keep track of my earnings and monitor performance.
@@ -37,12 +37,17 @@
 ### Baddĭl is built using the following technologies
 
 - This project uses the [Nest.js](https://nestjs.com/) framework for the backend. Nest.js is a progressive Node.js framework built with TypeScript, enabling efficient and scalable server-side development.
+
 - For the database, the app uses [Prisma](https://www.prisma.io/) with MySQL. Prisma is an ORM (Object Relational Mapper) that provides an efficient and type-safe database access layer for MySQL, making it easier to interact with the database and manage the schema in a structured and scalable manner.
+
 - The mobile app is developed using [Expo](https://expo.dev/) on top of [React Native](https://reactnative.dev/). Expo provides a set of tools and services that streamline the development process for building iOS and Android apps with React Native, enabling faster iteration and easy deployment with a single codebase.
-- The broker web app is developed using [React](https://react.dev/) + [Vite](https://vite.dev/).
-- The admin desktop app is built using [React](https://react.dev/) + [Vite](https://vite.dev/).
+
+- The admin and broker web apps are developed using [React](https://react.dev/) + [Vite](https://vite.dev/).
+
 - The runtime and task management are handled by [Bun](https://bun.sh/). Bun is a fast, modern JavaScript runtime that works well for handling tasks in web and mobile applications.
+
 - The app uses [TypeScript](https://www.typescriptlang.org/) for strong typing and enhanced development productivity, providing a better developer experience and reducing runtime errors.
+
 - AI features, including recommendations, trade planning, and analysis, are powered by [OpenAI](https://openai.com/). OpenAI provides cutting-edge AI models to enhance user experience and provide intelligent assistance across the platform.
 
 <br><br>
@@ -56,8 +61,8 @@
 
 ### Mockups
 
-| Home Screen                                    | Brokers Screen                                  | Item Screen                                 |
-| ---------------------------------------------- | -------------------------------------------- | -------------------------------------------- |
+| Home Screen                                      | Brokers Screen                                  | Item Screen                                   |
+| ------------------------------------------------ | ----------------------------------------------- | --------------------------------------------- |
 | ![Landing](./readme/mockups/mobile/homePage.png) | ![Brokers](./readme/mockups/mobile/brokers.png) | ![Item](./readme/mockups/mobile/itemPage.png) |
 
 <br><br>
@@ -74,21 +79,21 @@
 <!-- Implementation -->
 <img src="./readme/titles/title6.svg"/>
 
-### User Screens (Mobile)
+### Barterer Screens (Mobile)
 
-| Login screen                              | Register screen                         | Landing screen                          | Loading screen                          |
-| ----------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
-| Home screen                               | Menu Screen                             | Order Screen                            | Checkout Screen                         |
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
+| Onboarding screen                                    | Home screen                                    | Add Item screen                                    |
+| ---------------------------------------------------- | ---------------------------------------------- | -------------------------------------------------- |
+| ![Onboarding](/readme/screens/mobile/onBoarding.gif) | ![Home](/readme/screens/mobile/home.gif)       | ![AddItem](/readme/screens/mobile/addItem.gif)     |
+| Chat screen                                          | Profile Screen                                 | Meetup Verify Screen                               |
+| ![Landing](/readme/screens/mobile/chat.gif)          | ![Profile](/readme/screens/mobile/profile.gif) | ![Meetup](/readme/screens/mobile/meetupVerify.gif) |
 
 ### Admin Screens (Web)
 
-| Login screen                                   | Register screen                              | Landing screen                               |
-| ---------------------------------------------- | -------------------------------------------- | -------------------------------------------- |
-| ![Landing](./readme/titles/demo/1440x1024.png) | ![fsdaf](./readme/titles/demo/1440x1024.png) | ![fsdaf](./readme/titles/demo/1440x1024.png) |
-| Home screen                                    | Menu Screen                                  | Order Screen                                 |
-| ![Landing](./readme/titles/demo/1440x1024.png) | ![fsdaf](./readme/titles/demo/1440x1024.png) | ![fsdaf](./readme/titles/demo/1440x1024.png) |
+| Overview screen                                  | Users Submenu screen                          |
+| ------------------------------------------------ | --------------------------------------------- |
+| ![Overview](./readme/screens/admin/overview.gif) | ![Users](./readme/screens/admin/users.gif)    |
+| Insights Submenu screen                          | Finances Submenu Screen                       |
+| ![Insights](./readme/screens/admin/insights.gif) | ![fsdaf](./readme/screens/admin/finances.gif) |
 
 <br><br>
 
