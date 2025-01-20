@@ -1,9 +1,9 @@
-<img src="./readme/title1.svg"/>
+<img src="./readme/titles/title1.svg"/>
 
 <br><br>
 
 <!-- project philosophy -->
-<img src="./readme/title2.svg"/>
+<img src="./readme/titles/title2.svg"/>
 
 > A platform revolutionizing the bartering experience by connecting users, brokers, and admins through a seamless and interactive system.
 >
@@ -32,15 +32,15 @@
 <br><br>
 
 <!-- Tech stack -->
-<img src="./readme/title3.svg"/>
+<img src="./readme/titles/title3.svg"/>
 
 ### Baddĭl is built using the following technologies
 
 - This project uses the [Nest.js](https://nestjs.com/) framework for the backend. Nest.js is a progressive Node.js framework built with TypeScript, enabling efficient and scalable server-side development.
 - For the database, the app uses [Prisma](https://www.prisma.io/) with MySQL. Prisma is an ORM (Object Relational Mapper) that provides an efficient and type-safe database access layer for MySQL, making it easier to interact with the database and manage the schema in a structured and scalable manner.
 - The mobile app is developed using [Expo](https://expo.dev/) on top of [React Native](https://reactnative.dev/). Expo provides a set of tools and services that streamline the development process for building iOS and Android apps with React Native, enabling faster iteration and easy deployment with a single codebase.
-- The broker web app is developed using [Next.js](https://nextjs.org/). Next.js is a React framework that enables server-side rendering and static site generation for optimized performance and SEO.
-- The admin desktop app is built using [Electron](https://www.electronjs.org/), which wraps the Next.js app to provide a seamless desktop experience across platforms.
+- The broker web app is developed using [React](https://react.dev/) + [Vite](https://vite.dev/).
+- The admin desktop app is built using [React](https://react.dev/) + [Vite](https://vite.dev/).
 - The runtime and task management are handled by [Bun](https://bun.sh/). Bun is a fast, modern JavaScript runtime that works well for handling tasks in web and mobile applications.
 - The app uses [TypeScript](https://www.typescriptlang.org/) for strong typing and enhanced development productivity, providing a better developer experience and reducing runtime errors.
 - AI features, including recommendations, trade planning, and analysis, are powered by [OpenAI](https://openai.com/). OpenAI provides cutting-edge AI models to enhance user experience and provide intelligent assistance across the platform.
@@ -48,7 +48,7 @@
 <br><br>
 
 <!-- UI UX -->
-<img src="./readme/title4.svg"/>
+<img src="./readme/titles/title4.svg"/>
 
 > We designed Baddĭl with a focus on intuitive user experience and sleek user interface, using wireframes and mockups to iterate and refine the design. Our goal is to ensure smooth navigation and a seamless bartering process.
 
@@ -56,23 +56,23 @@
 
 ### Mockups
 
-| Home screen                             | Menu Screen                           | Order Screen                          |
-| --------------------------------------- | ------------------------------------- | ------------------------------------- |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| Home Screen                                    | Brokers Screen                                  | Item Screen                                 |
+| ---------------------------------------------- | -------------------------------------------- | -------------------------------------------- |
+| ![Landing](./readme/mockups/mobile/homePage.png) | ![Brokers](./readme/mockups/mobile/brokers.png) | ![Item](./readme/mockups/mobile/itemPage.png) |
 
 <br><br>
 
 <!-- Database Design -->
-<img src="./readme/title5.svg"/>
+<img src="./readme/titles/title5.svg"/>
 
 ### Architecting Data Excellence: Innovative Database Design Strategies
 
-- Insert ER Diagram here
+- To visit the Prisma schema directory click [here]("./readme/schema")
 
 <br><br>
 
 <!-- Implementation -->
-<img src="./readme/title6.svg"/>
+<img src="./readme/titles/title6.svg"/>
 
 ### User Screens (Mobile)
 
@@ -84,25 +84,25 @@
 
 ### Admin Screens (Web)
 
-| Login screen                            | Register screen                       | Landing screen                        |
-| --------------------------------------- | ------------------------------------- | ------------------------------------- |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
-| Home screen                             | Menu Screen                           | Order Screen                          |
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
+| Login screen                                   | Register screen                              | Landing screen                               |
+| ---------------------------------------------- | -------------------------------------------- | -------------------------------------------- |
+| ![Landing](./readme/titles/demo/1440x1024.png) | ![fsdaf](./readme/titles/demo/1440x1024.png) | ![fsdaf](./readme/titles/demo/1440x1024.png) |
+| Home screen                                    | Menu Screen                                  | Order Screen                                 |
+| ![Landing](./readme/titles/demo/1440x1024.png) | ![fsdaf](./readme/titles/demo/1440x1024.png) | ![fsdaf](./readme/titles/demo/1440x1024.png) |
 
 <br><br>
 
 <!-- Prompt Engineering -->
-<img src="./readme/title7.svg"/>
+<img src="./readme/titles/title7.svg"/>
 
 ### Mastering AI Interaction: Unveiling the Power of Prompt Engineering
 
-- This project uses advanced prompt engineering techniques to optimize the interaction with natural language processing models. By skillfully crafting input instructions, we tailor the behavior of the models to achieve precise and efficient language understanding and generation for various tasks and preferences.
+- Baddil's core is AI! We harnessed [OpenAI]("https://openai.com/index/openai-api/") 's API to create a robust and efficient system that can handle a wide range of user inputs and provide services hat guarantee security and seamless experience of our users!
 
 <br><br>
 
 <!-- AWS Deployment -->
-<img src="./readme/title8.svg"/>
+<img src="./readme/titles/title8.svg"/>
 
 ### Efficient AI Deployment: Unleashing the Potential with AWS Integration
 
@@ -111,46 +111,60 @@
 <br><br>
 
 <!-- Unit Testing -->
-<img src="./readme/title9.svg"/>
+<img src="./readme/titles/title9.svg"/>
 
 ### Precision in Development: Harnessing the Power of Unit Testing
 
-- This project employs rigorous unit testing methodologies to ensure the reliability and accuracy of code components. By systematically evaluating individual units of the software, we guarantee a robust foundation, identifying and addressing potential issues early in the development process.
+- Our team keeps ensuring the scalability of Baddil as it grows!
+- Definitely can't wait to announce our Unit Testing in future. Stay tuned!
 
 <br><br>
 
 <!-- How to run -->
-<img src="./readme/title10.svg"/>
+<img src="./readme/titles/title10.svg"/>
 
-> To set up Coffee Express locally, follow these steps:
+> To set up Baddil locally, follow these steps:
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+First of all you need your runtime environment. Baddil uses "Bun" to be set up. You can install bun by running the following command:
 
-- npm
+- [bun](https://bun.sh/docs/installation)
 
   ```sh
-  npm install npm@latest -g
+  npm install -g bun
   ```
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Below are instructions how to run Baddil._
 
-1. Get a free API Key at [example](https://example.com)
-2. Clone the repo
-   git clone [github](https://github.com/your_username_/Project-Name.git)
-3. Install NPM packages
+#### Common Steps:
+
+1. Clone the repository:
+
+```sh
+git clone https://github.com/IbrahimItani01/baddil.git
+```
+
+2. Install dependencies
 
    ```sh
-   npm install
+   bun install
    ```
 
-4. Enter your API in `config.js`
+#### Server-Side
 
-   ```js
-   const API_KEY = "ENTER YOUR API";
-   ```
+1. Setup [Firebase]("https://firebase.google.com/") project for authentication.
 
-Now, you should be able to run Baddĭl locally and explore its features.
+2. Obtain your [OpenAI]("https://openai.com/index/openai-api/") api.
+
+3. Create your [MySQL]("https://www.mysql.com/products/workbench/") database.
+
+4. Visit the .env.example file and follow the key-naming structure.
+
+#### Client-Side
+
+1. Check in ./apis/main.ts the currentIp. Change its values to your currentIp.
+
+Now, you should be able to run Baddĭl locally and explore its features!
