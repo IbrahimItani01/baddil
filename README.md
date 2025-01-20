@@ -106,25 +106,6 @@
 
 <br><br>
 
-<!-- AWS Deployment -->
-<img src="./readme/titles/title8.svg"/>
-
-### Efficient AI Deployment: Unleashing the Potential with AWS Integration
-
-- This project leverages AWS deployment strategies to seamlessly integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance, we ensure that AI applications powered by these models deliver robust and responsive solutions for diverse use cases.
-
-<br><br>
-
-<!-- Unit Testing -->
-<img src="./readme/titles/title9.svg"/>
-
-### Precision in Development: Harnessing the Power of Unit Testing
-
-- Our team keeps ensuring the scalability of Baddil as it grows!
-- Definitely can't wait to announce our Unit Testing in future. Stay tuned!
-
-<br><br>
-
 <!-- How to run -->
 <img src="./readme/titles/title10.svg"/>
 
