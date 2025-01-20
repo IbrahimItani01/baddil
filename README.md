@@ -38,7 +38,7 @@
 
 - Server-side is developed using [Nest.js](https://nestjs.com/) framework.
 
-- Database is developed using [Prisma](https://www.prisma.io/) with [MySQL](https://www.mysql.com/products/workbench/).  
+- Database is developed using [Prisma](https://www.prisma.io/) with [MySQL](https://www.mysql.com/products/workbench/).
 
 - Mobile app is developed using [Expo](https://expo.dev/) on top of [React Native](https://reactnative.dev/).
 
@@ -105,6 +105,11 @@
 ### Mastering AI Interaction: Unveiling the Power of Prompt Engineering
 
 - Baddil's core is AI! We harnessed [OpenAI]("https://openai.com/index/openai-api/") 's API to create a robust and efficient system that can handle a wide range of user inputs and provide services hat guarantee security and seamless experience of our users!
+
+| Prompts                                         |                                                          |
+| ----------------------------------------------- | -------------------------------------------------------- |
+| ![Prompt](./readme/prompts/systemPrompt.png)    | ![ValueGeneration](./readme/prompts/valueGeneration.png) |
+| ![Insights](./readme/prompts/openAiPayload.png) | ![fsdaf](./readme/prompts/barterRecommendations.png)     |
 
 <br><br>
 
