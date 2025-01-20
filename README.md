@@ -36,19 +36,21 @@
 
 ### Baddĭl is built using the following technologies
 
-- This project uses the [Nest.js](https://nestjs.com/) framework for the backend. Nest.js is a progressive Node.js framework built with TypeScript, enabling efficient and scalable server-side development.
+- Server-side is developed using [Nest.js](https://nestjs.com/) framework.
 
-- For the database, the app uses [Prisma](https://www.prisma.io/) with MySQL. Prisma is an ORM (Object Relational Mapper) that provides an efficient and type-safe database access layer for MySQL, making it easier to interact with the database and manage the schema in a structured and scalable manner.
+- Database is developed using [Prisma](https://www.prisma.io/) with [MySQL](https://www.mysql.com/products/workbench/).  
 
-- The mobile app is developed using [Expo](https://expo.dev/) on top of [React Native](https://reactnative.dev/). Expo provides a set of tools and services that streamline the development process for building iOS and Android apps with React Native, enabling faster iteration and easy deployment with a single codebase.
+- Mobile app is developed using [Expo](https://expo.dev/) on top of [React Native](https://reactnative.dev/).
 
-- The admin and broker web apps are developed using [React](https://react.dev/) + [Vite](https://vite.dev/).
+- Admin and broker web apps are developed using [React](https://react.dev/) + [Vite](https://vite.dev/).
 
-- The runtime and task management are handled by [Bun](https://bun.sh/). Bun is a fast, modern JavaScript runtime that works well for handling tasks in web and mobile applications.
+- Runtime and task management are handled by [Bun](https://bun.sh/).
 
-- The app uses [TypeScript](https://www.typescriptlang.org/) for strong typing and enhanced development productivity, providing a better developer experience and reducing runtime errors.
+- Main language [TypeScript](https://www.typescriptlang.org/).
 
-- AI features, including recommendations, trade planning, and analysis, are powered by [OpenAI](https://openai.com/). OpenAI provides cutting-edge AI models to enhance user experience and provide intelligent assistance across the platform.
+- Authentication is handled through [Firebase](https://firebase.google.com/).
+
+- AI features, including recommendations, trade planning, and analysis, are powered by [OpenAI](https://openai.com/).
 
 <br><br>
 
