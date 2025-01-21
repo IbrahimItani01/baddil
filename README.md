@@ -5,9 +5,9 @@
 <!-- project philosophy -->
 <img src="./readme/titles/title2.svg"/>
 
-> A platform revolutionizing the bartering experience by connecting users, brokers, and admins through a seamless and interactive system.
->
-> Baddĭl aims to redefine how people trade goods and services by introducing modern tools like AI assistance, dynamic user interfaces, and automated workflows. We believe in fostering a community of trust and efficiency, empowering users to achieve their bartering goals effortlessly.
+> Baddil is a platform that aims to simplify the process of bartering in a secure way!
+> Baddil aims to redefine how people trade goods and services by introducing modern tools like AI assistance, dynamic user interfaces, and automated workflows.
+> The vision of Baddil is to create a community of trust and efficiency, empowering users to achieve their bartering goals effortlessly.
 
 ### User Stories
 
@@ -34,7 +34,7 @@
 <!-- Tech stack -->
 <img src="./readme/titles/title3.svg"/>
 
-### Baddĭl is built using the following technologies
+### Baddil is built using the following technologies
 
 - Server-side is developed using [Nest.js](https://nestjs.com/) framework.
 
@@ -46,9 +46,11 @@
 
 - Runtime and task management are handled by [Bun](https://bun.sh/).
 
-- Main language [TypeScript](https://www.typescriptlang.org/).
+- The primary language used was [TypeScript](https://www.typescriptlang.org/).
 
-- Authentication is handled through [Firebase](https://firebase.google.com/).
+- Authentication is handled through [Firebase](https://firebase.google.com/) and [JWT](https://jwt.io/).
+
+- State management on the frontend is handled using [Redux](https://redux.js.org/).
 
 - AI features, including recommendations, trade planning, and analysis, are powered by [OpenAI](https://openai.com/).
 
@@ -57,7 +59,7 @@
 <!-- UI UX -->
 <img src="./readme/titles/title4.svg"/>
 
-> We designed Baddĭl with a focus on intuitive user experience and sleek user interface, using wireframes and mockups to iterate and refine the design. Our goal is to ensure smooth navigation and a seamless bartering process.
+> We designed Baddil with a user-centric approach, emphasizing simplicity, clarity, and ease of use. Multiple wireframes were tested, and mockups were iterated upon to ensure a design that aligns with the vision of Baddil.
 
 - Project Figma design [figma](https://www.figma.com/design/mQS7bXZeXgdcuBRzxnVaNN/Badd%C4%ADl-Project?m=auto&t=i0kwRwvZMlqeEVbU-1)
 
@@ -74,7 +76,7 @@
 
 ### Architecting Data Excellence: Innovative Database Design Strategies
 
-- To visit the Prisma schema directory click [here]("./readme/schema")
+- To explore the Prisma schema models, click [here]("./readme/schema").
 
 <br><br>
 
@@ -104,7 +106,7 @@
 
 ### Mastering AI Interaction: Unveiling the Power of Prompt Engineering
 
-- Baddil's core is AI! We harnessed [OpenAI]("https://openai.com/index/openai-api/") 's API to create a robust and efficient system that can handle a wide range of user inputs and provide services hat guarantee security and seamless experience of our users!
+- AI is at the heart of Baddil! We leveraged the [OpenAI](https://openai.com/index/openai-api/) API and prompt engineering to deliver powerful features: recommending the most relevant category to search in, evaluating user credibility, and suggesting the optimal item from the user's wallet to barter with.
 
 | Prompts                                         |                                                          |
 | ----------------------------------------------- | -------------------------------------------------------- |
@@ -113,6 +115,13 @@
 
 <br><br>
 
+ <!-- AWS Deployment -->
+<img src="./readme/titles/title8.svg"/>
+
+### Efficient AI Deployment: Unleashing the Potential with AWS Integration
+
+- Baddil leverages AWS for seamless deployment ensuring scalability, reliability, and high performance. The backend server is hosted on an EC2 instance.
+<!-- TODO: add the point of postman documentation and screenshot of postman api in action  -->
 <!-- How to run -->
 <img src="./readme/titles/title10.svg"/>
 
@@ -160,4 +169,4 @@ git clone https://github.com/IbrahimItani01/baddil.git
 
 1. Check in ./apis/main.ts the currentIp. Change its values to your currentIp.
 
-Now, you should be able to run Baddĭl locally and explore its features!
+Now, you should be able to run Baddil locally and explore its features!
