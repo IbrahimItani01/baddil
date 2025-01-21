@@ -121,7 +121,14 @@
 ### Efficient AI Deployment: Unleashing the Potential with AWS Integration
 
 - Baddil leverages AWS for seamless deployment ensuring scalability, reliability, and high performance. The backend server is hosted on an EC2 instance.
-<!-- TODO: add the point of postman documentation and screenshot of postman api in action  -->
+- Checkout the detailed API documentation through [Postman](https://documenter.getpostman.com/view/39547074/2sAYQcGBRy)
+
+| Login Api                                   | Get Wallet Items Api                             |
+| ------------------------------------------- | ------------------------------------------------ |
+| ![login](./readme/apis/login.png)           | ![walletItems](./readme/apis/getWalletItems.png) |
+| Create Item Api                             | Edit Item Details                                |
+| ![createItem](./readme/apis/createItem.png) | ![editItem](./readme/apis/updateItemData.png)    |
+
 <!-- How to run -->
 <img src="./readme/titles/title10.svg"/>
 
@@ -164,6 +171,21 @@ git clone https://github.com/IbrahimItani01/baddil.git
 3. Create your [MySQL]("https://www.mysql.com/products/workbench/") database.
 
 4. Visit the .env.example file and follow the key-naming structure.
+
+5. To setup the database:
+
+```sh
+cd src/database/prisma
+npx prisma generate
+npx prisma db push
+```
+
+6. To seed the database:
+
+```sh
+cd src/database
+bun seed
+```
 
 #### Client-Side
 
