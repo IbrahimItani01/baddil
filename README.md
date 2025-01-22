@@ -74,7 +74,7 @@
 <!-- Database Design -->
 <img src="./readme/titles/title5.svg"/>
 
-### Architecting Data Excellence: Innovative Database Design Strategies
+### Building Better Databases: Innovative Approaches to Data Design
 
 - To explore the Prisma schema models, click [here]("./readme/schema").
 
@@ -104,7 +104,7 @@
 <!-- Prompt Engineering -->
 <img src="./readme/titles/title7.svg"/>
 
-### Mastering AI Interaction: Unveiling the Power of Prompt Engineering
+### The Art of Prompt Engineering: Crafting Effective AI Interactions
 
 - AI is at the heart of Baddil! We leveraged the [OpenAI](https://openai.com/index/openai-api/) API and prompt engineering to deliver powerful features: recommending the most relevant category to search in, evaluating user credibility, and suggesting the optimal item from the user's wallet to barter with.
 
@@ -118,7 +118,7 @@
  <!-- AWS Deployment -->
 <img src="./readme/titles/title8.svg"/>
 
-### Efficient AI Deployment: Unleashing the Potential with AWS Integration
+### Optimizing Performance: Leveraging AWS for Scalable Solutions
 
 - Baddil leverages AWS for seamless deployment ensuring scalability, reliability, and high performance. The backend server is hosted on an EC2 instance.
 - Checkout the detailed API documentation through [Postman](https://documenter.getpostman.com/view/39547074/2sAYQcGBRy)
