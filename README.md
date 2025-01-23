@@ -116,7 +116,7 @@
 <br><br>
 
  <!-- AWS Deployment -->
-<img src="./readme/titles/title8.svg"/>
+<!-- <img src="./readme/titles/title8.svg"/>
 
 ### Optimizing Performance: Leveraging AWS for Scalable Solutions
 
@@ -128,7 +128,7 @@
 | ![login](./readme/apis/login.png)           | ![walletItems](./readme/apis/getWalletItems.png) |
 | Create Item Api                             | Edit Item Details                                |
 | ![createItem](./readme/apis/createItem.png) | ![editItem](./readme/apis/updateItemData.png)    |
-
+-->
 <!-- How to run -->
 <img src="./readme/titles/title10.svg"/>
 
